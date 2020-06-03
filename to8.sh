@@ -145,7 +145,7 @@ EOF
 cat >$STAGING_DIR/etc/yum.repos.d/CentOS-Extras.repo <<EOF
 [Extras]
 name=CentOS-8 - Extras
-mirrorlist=http://mirror.centos.org/centos/8/Extras/x86_64/os/
+mirrorlist=http://mirror.centos.org/centos/8/extras/x86_64/os/
 gpgcheck=1
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
