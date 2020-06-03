@@ -127,7 +127,7 @@ EOF
 cat >$STAGING_DIR/etc/yum.repos.d/CentOS-Base.repo <<EOF
 [BaseOS]
 name=CentOS-8 - Base
-mirrorlist=http://mirrorlist.centos.org/?release=8&arch=\$basearch&repo=BaseOS&infra=\$infra
+mirrorlist=http://mirror.centos.org/centos/8/BaseOS/x86_64/os/
 gpgcheck=1
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
@@ -136,7 +136,7 @@ EOF
 cat >$STAGING_DIR/etc/yum.repos.d/CentOS-AppStream.repo <<EOF
 [AppStream]
 name=CentOS-8 - AppStream
-mirrorlist=http://mirrorlist.centos.org/?release=8&arch=\$basearch&repo=AppStream&infra=\$infra
+mirrorlist=http://mirror.centos.org/centos/8/AppStream/x86_64/os/
 gpgcheck=1
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
@@ -145,7 +145,7 @@ EOF
 cat >$STAGING_DIR/etc/yum.repos.d/CentOS-Extras.repo <<EOF
 [Extras]
 name=CentOS-8 - Extras
-mirrorlist=http://mirrorlist.centos.org/?release=8&arch=\$basearch&repo=Extras&infra=\$infra
+mirrorlist=http://mirror.centos.org/centos/8/Extras/x86_64/os/
 gpgcheck=1
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
